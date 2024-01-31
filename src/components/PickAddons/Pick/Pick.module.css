@@ -1,0 +1,24 @@
+.checkbox{
+    display: none;
+}
+
+
+
+.check{
+    width: 20px;
+    height: 20px;
+    border: 1px solid hsl(229, 24%, 87%);
+    display: block;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkbox:checked ~ .check{
+    background-color: hsl(243, 100%, 62%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='9' viewBox='0 0 12 9'%3E%3Cpath fill='none' stroke='%23FFF' stroke-width='2' d='m1 4 3.433 3.433L10.866 1'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+

@@ -1,0 +1,12 @@
+.bgsidebar{
+    background-image: url('../../../public/images/bg-sidebar-desktop.svg');
+}
+
+
+
+@media screen and (max-width: 768px){
+    .bgsidebar{
+        background-image: url('../../../public/images/bg-sidebar-mobile.svg');
+    }
+    
+}
